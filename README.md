@@ -57,9 +57,9 @@ Methodology: Aggregate productivity data by week and analyze trends, variations,
 
 
 
-
-
-## Key Questions for Employee Productivity Analysis:
+<br>
+<br>
+<br>## Key Questions for Employee Productivity Analysis:
 
 ### 1.How can we create a new column, team_average, to track the average productivity per use case each day?
 Answer: Implement a calculation that aggregates daily productivity metrics for each use case and divides by the number of employees to derive the average. Store this value in a new column for ongoing tracking and analysis.
