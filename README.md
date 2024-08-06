@@ -59,25 +59,25 @@ Methodology: Aggregate productivity data by week and analyze trends, variations,
 
 <br>
 <br>
-<br> ## Key Questions for Employee Productivity Analysis:
+## Key Questions for Employee Productivity Analysis:
 
 ### 1.How can we create a new column, team_average, to track the average productivity per use case each day?
-*Answer: Implement a calculation that aggregates daily productivity metrics for each use case and divides by the number of employees to derive the average. Store this value in a new column for ongoing tracking and analysis.*
+*Implement a calculation that aggregates daily productivity metrics for each use case and divides by the number of employees to derive the average. Store this value in a new column for ongoing tracking and analysis.*
 
 ### 2.Which employees emerged as the top performers for each use case during the month of May?
-*Answer: By filtering data for May, grouping by use cases, and sorting performance metrics, we can identify and list the top-performing employees for each use case, providing a clear view of exceptional contributors.*
+*By filtering data for May, grouping by use cases, and sorting performance metrics, we can identify and list the top-performing employees for each use case, providing a clear view of exceptional contributors.*
 
 ### 3.Among the managers, who leads the most productive team in handling Postcursor_Audits_L1 cases?
-*Answer: By evaluating the aggregate performance of teams managed under Postcursor_Audits_L1 cases, we can determine which manager's team exhibits the highest productivity, highlighting effective leadership and management practices.*
+*By evaluating the aggregate performance of teams managed under Postcursor_Audits_L1 cases, we can determine which manager's team exhibits the highest productivity, highlighting effective leadership and management practices.*
 
 ### 4.Who are the top two performers under each manager according to productivity metrics?
-*Answer: By grouping employees under each manager, calculating their productivity metrics, and ranking them, we can identify the top two performers, showcasing the most efficient and impactful team members.*
+*By grouping employees under each manager, calculating their productivity metrics, and ranking them, we can identify the top two performers, showcasing the most efficient and impactful team members.*
 
 ### 5.Which employees are performing below the team average in their respective tasks?
-*Answer: By comparing individual performance metrics with the calculated team average, we can identify employees whose productivity falls below the average, signaling areas for potential improvement and support.*
+*By comparing individual performance metrics with the calculated team average, we can identify employees whose productivity falls below the average, signaling areas for potential improvement and support.*
 
 ### 6.What insights can be derived from the week-to-week variations in employee productivity?
-*Answer: Analyzing weekly productivity data can reveal trends, patterns, and anomalies, providing insights into factors influencing productivity, such as workload, project timelines, and employee well-being, enabling more informed decision-making.*
+*Analyzing weekly productivity data can reveal trends, patterns, and anomalies, providing insights into factors influencing productivity, such as workload, project timelines, and employee well-being, enabling more informed decision-making.*
 
 ## Conclusion:
 *This project provides a detailed, structured approach to analyzing and optimizing employee productivity, leveraging data transformation and querying techniques. By addressing key tasks and answering pivotal questions, the project aims to deliver actionable insights that enhance employee performance and organizational efficiency. This comprehensive analysis will serve as a valuable asset for management in decision-making processes and strategic planning.*
