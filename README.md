@@ -8,7 +8,7 @@
 ### *Analysis of Employee Productivity Data for Performance Fine tuning*
 
 ## Project Description:
-*This comprehensive project aims to meticulously analyze and optimize employee productivity by leveraging data transformation and querying techniques on two fundamental tables: productivity and employees.The scope of the analysis encompasses various facets, including string manipulation, column renaming, data type transformations,and productivity metrics evaluation.The objective is to derive actionable insights*** that can significantly enhance employee performance and overall organizational efficiency.*
+*This comprehensive project aims to meticulously analyze and optimize employee productivity by leveraging data transformation and querying techniques on two fundamental tables: productivity and employees.The scope of the analysis encompasses various facets, including string manipulation, column renaming, data type transformations,and productivity metrics evaluation.The objective is to derive actionable insight that can significantly enhance employee performance and overall organizational efficiency.*
 
 ## Objectives:
 *To transform and analyze employee productivity data for ***performance enhancement***.
