@@ -3,7 +3,8 @@ select * from productivity;
 
 select *  from  employees;
 
---string manipulation or string transformation
+---Key Tasks and Methodologies:
+---1.string manipulation or string transformation
 
 update employees
 set first_name = UPPER(LEFT(first_name,1))+lower(RIGHT(first_name,len(first_name)-1)),
@@ -14,31 +15,31 @@ set manager_id = 'Kiran'
 	where manager_id = 'kppalive';
 
 
----Renaming Column name for table employees
+---2.Renaming Column name for table employees
 EXEC sp_rename 'employees.manager_id',  'manager', 'COLUMN';
 
 
 select *  from  employees
 
 
----Renaming Column name for table productivity
+---3.Renaming Column name for table productivity
 
 EXEC sp_rename 'productivity.Time_Utilisation',  'time_utilisation', 'COLUMN';
 EXEC sp_rename 'productivity.Case_Count',  'case_count', 'COLUMN';
 EXEC sp_rename 'productivity.Productivity_per_hour',  'productivity_per_hour', 'COLUMN';
 
 
---Rounding columns to 2 decimals
+--4.Rounding columns to 2 decimals
 
 update productivity set time_utilisation = round(time_utilisation,2);
 
 update productivity set productivity_per_hour = round(productivity_per_hour,2);
 
---Changing date time to date
+--5.Changing date time to date
 
 ALTER TABLE productivity ALTER COLUMN date DATE;
 
----Checking the columns
+---6.Checking the columns
 
 SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE
 FROM INFORMATION_SCHEMA.COLUMNS
@@ -49,8 +50,13 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'employees';
 
 
- 
----1. creating a new column team_average for each usecase of that day
+
+
+
+
+---Key Questions for Employee Productivity Analysis:
+
+---1.creating a new column team_average for each usecase of that day
 
 alter table productivity add team_average float;
 
