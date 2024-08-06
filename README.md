@@ -83,6 +83,6 @@ To optimize productivity by recognizing top performers and areas needing improve
 *This project provides a detailed, structured approach to analyzing and optimizing employee productivity, leveraging data transformation and querying techniques. By addressing key tasks and answering pivotal questions, the project aims to deliver actionable insights that enhance employee performance and organizational efficiency. This comprehensive analysis will serve as a valuable asset for management in decision-making processes and strategic planning.*
 
 ## Appendices:
-Data Schema Diagrams: Visual representations of the productivity and employees tables.
-SQL Queries: Sample queries used for data manipulation and analysis.
-Code Snippets: Examples of code used for data transformations and calculations.
+<br>Data Schema Diagrams: Visual representations of the productivity and employees tables.
+<br>SQL Queries: Sample queries used for data manipulation and analysis.
+<br>Code Snippets: Examples of code used for data transformations and calculations.
