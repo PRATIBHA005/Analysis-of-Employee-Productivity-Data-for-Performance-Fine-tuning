@@ -1,20 +1,19 @@
-# Analysis-of-Employee-Productivity-Data-for-Performance-Fine-tuning
-Author-Pratibha Teotia
+## Author-Pratibha Teotia
 
-Project Overview
+#Project Overview
 
-Project Title:
-Analysis of Employee Productivity Data for Performance Fine tuning
+##Project Title:
+###Analysis of Employee Productivity Data for Performance Fine tuning
 
-Project Description:
+##Project Description:
 This comprehensive project aims to meticulously analyze and optimize employee productivity by leveraging data transformation and querying techniques on two fundamental tables: productivity and employees. The scope of the analysis encompasses various facets, including string manipulation, column renaming, data type transformations, and productivity metrics evaluation. The objective is to derive actionable insights that can significantly enhance employee performance and overall organizational efficiency.
 
-Objectives:
+##Objectives:
 To transform and analyze employee productivity data for performance enhancement.
 To identify key productivity metrics and evaluate employee performance comprehensively.
 To optimize productivity by recognizing top performers and areas needing improvement.
 
-Key Tasks and Methodologies:
+##Key Tasks and Methodologies:
 
 1.String Manipulation or Transformation:
 Objective: Ensure data consistency and accuracy by modifying or reformatting strings within the data.
@@ -54,7 +53,7 @@ Methodology: Aggregate productivity data by week and analyze trends, variations,
 
 
 
-Key Questions for Employee Productivity Analysis:
+##Key Questions for Employee Productivity Analysis:
 
 1.How can we create a new column, team_average, to track the average productivity per use case each day?
 Answer: Implement a calculation that aggregates daily productivity metrics for each use case and divides by the number of employees to derive the average. Store this value in a new column for ongoing tracking and analysis.
@@ -73,10 +72,10 @@ Answer: By comparing individual performance metrics with the calculated team ave
 5.What insights can be derived from the week-to-week variations in employee productivity?
 Answer: Analyzing weekly productivity data can reveal trends, patterns, and anomalies, providing insights into factors influencing productivity, such as workload, project timelines, and employee well-being, enabling more informed decision-making.
 
-Conclusion:
+##Conclusion:
 This project provides a detailed, structured approach to analyzing and optimizing employee productivity, leveraging data transformation and querying techniques. By addressing key tasks and answering pivotal questions, the project aims to deliver actionable insights that enhance employee performance and organizational efficiency. This comprehensive analysis will serve as a valuable asset for management in decision-making processes and strategic planning.
 
-Appendices:
+##Appendices:
 Data Schema Diagrams: Visual representations of the productivity and employees tables.
 SQL Queries: Sample queries used for data manipulation and analysis.
 Code Snippets: Examples of code used for data transformations and calculations.
