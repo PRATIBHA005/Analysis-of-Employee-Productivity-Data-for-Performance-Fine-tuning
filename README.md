@@ -16,42 +16,42 @@ To identify key productivity metrics and evaluate employee performance comprehen
 To optimize productivity by recognizing top performers and areas needing improvement.*
 
 ## Key Tasks and Methodologies:
-
+<br>
 ### 1.String Manipulation or Transformation:
 *Objective: Ensure data consistency and accuracy by modifying or reformatting strings within the data.
 <br>Methodology: Use functions to clean, split, concatenate, or replace strings to standardize data entries.*
-
+<br>
 ### 2.Renaming Column Names:
 *Objective: Update column headers to more meaningful or standardized names for better readability and understanding.
 <br>Methodology: Implement SQL ALTER TABLE statements or equivalent functions in data manipulation tools to rename columns accurately.*
-
+<br>
 ### 3.Changing Date Time to Date:
 *Objective: Simplify date-time entries to simple date formats to facilitate easier analysis.
 <br>Methodology: Apply date formatting functions to convert complex date-time entries into a standard date format, ensuring uniformity across the dataset.*
-
+<br>
 ### 4.Creating a New Column for Team Average:
 *Objective: Introduce a new column, team_average, to track the average productivity per use case each day.
 <br>Methodology: Calculate the daily average productivity per use case using aggregate functions and store the results in a newly created column.*
-
+<br>
 ### 5.Finding the Top Performer for Each Use Case in May:
 *Objective: Identify the highest-performing employee for each use case during the month of May.
 <br>Methodology: Filter the data for May, group by use cases, and use sorting or ranking functions to pinpoint top performers.*
-
+<br>
 ### 6.Evaluating Managerial Performance in Postcursor_Audits_L1:
 *Objective: Assess the productivity of managers in handling Postcursor_Audits_L1 cases.
 <br>Methodology: Analyze the performance metrics of managers by aggregating data specific to Postcursor_Audits_L1 cases and comparing results.*
-
+<br>
 ### 7.Identifying Top Performers for Each Manager:
 *Objective: Determine the top two performers under each manager based on productivity metrics.
 <br>Methodology: Group data by managers, calculate individual performance metrics, and identify top performers using ranking functions.*
-
+<br>
 ### 8.Identifying Employees Performing Below Team Average:
 *Objective: Recognize employees whose performance is below the team average for their respective tasks.
 <br>Methodology: Compare individual performance metrics with the team average and flag those falling below the threshold.*
-
+<br>
 ### 9.Analyzing Weekly Variations in Employee Productivity:
 *Objective: Examine the fluctuations in employee productivity on a week-to-week basis.
-Methodology: Aggregate productivity data by week and analyze trends, variations, and patterns to gain insights into productivity dynamics.*
+<br>Methodology: Aggregate productivity data by week and analyze trends, variations, and patterns to gain insights into productivity dynamics.*
 
 
 
